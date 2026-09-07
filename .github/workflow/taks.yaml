@@ -1,0 +1,17 @@
+name: second-task
+
+on:
+  push
+
+jobs:
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print text
+        run: echo "This my practice"
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - name: Print message
+        run: echo "task lo inko task"
